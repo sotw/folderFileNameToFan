@@ -1,0 +1,1 @@
+python ~/bin/sh/folderFileNameToFan.py $1
