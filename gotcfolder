@@ -1,1 +1,4 @@
 python ~/bin/sh/folderFileNameToFan.py $1
+if [ -x /usr/syno/bin/synoindex ]; then 
+   /usr/syno/bin/synoindex -R $1
+fi
