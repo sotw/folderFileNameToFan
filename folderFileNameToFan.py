@@ -9,7 +9,6 @@ global tPath
 def prepareRenamePara(oldName,newName):
 	iOut = []
 	iOut.append('mv')
-	iOut.append('-v')
 	iOut.append(oldName)
 	iOut.append(newName)
 	return iOut
